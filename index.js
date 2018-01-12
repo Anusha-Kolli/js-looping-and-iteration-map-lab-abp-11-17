@@ -14,7 +14,7 @@ function nameToAttributes(drivers){
 }
 
 function attributesToPhrase(drivers){
-  return drivers.map(function (lower){
+  return drivers.map(function (attribute){
     return `${drivers.name} is from ${drivers.hometown}`;
   })
 }

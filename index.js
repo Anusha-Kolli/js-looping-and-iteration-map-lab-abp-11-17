@@ -5,4 +5,5 @@ function lowerCaseDrivers (drivers, callback) {
   for (const element of drivers) {
     newArr.push(callback(element));
   }
+  return newArr[];
 }
